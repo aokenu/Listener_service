@@ -13,4 +13,5 @@ def move1(port):
     # Converting the time to an epoch string(the output timestamp string would be recognizable by strptime() withoutformat quantifers)
     t_str = time.ctime(t)
     # Converting the string to a time object
+    t_obj = time.strptime(t_str)
     
