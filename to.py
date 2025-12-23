@@ -31,4 +31,9 @@ def move1(port):
     #move files to their  
     source = 'C:/python_work/changes/port/'
     destination = f"C:/python_work/changes/done/{port}/{port}"
-    
+
+    allfiles = os.listdir(source)
+      
+    for f in allfiles:
+        shutil.move(source + f, destination + f)
+        
