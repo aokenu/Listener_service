@@ -15,4 +15,5 @@ def move1(port):
     # Converting the string to a time object
     t_obj = time.strptime(t_str)
     # Transforming the time object to a timestamp
+    # of ISO 8601 format
     
