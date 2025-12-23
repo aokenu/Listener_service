@@ -23,4 +23,5 @@ def move1(port):
     # modified Letter Colon " " (U+A789)
     form_t = form_t.replace(":", "꞉")
     dest = os.path.split(f_path)[0] + '/' + form_t + os.path.splitext(f_path)[1]
-    
+    # Renaming the filename to its timestamp
+    os.rename(f_path, dest)
