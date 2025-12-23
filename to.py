@@ -16,4 +16,5 @@ def move1(port):
     t_obj = time.strptime(t_str)
     # Transforming the time object to a timestamp
     # of ISO 8601 format
+    form_t = time.strftime("%Y-%m-%d %H:%M:%S", t_obj)
     
