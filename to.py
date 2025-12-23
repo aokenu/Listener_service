@@ -20,5 +20,7 @@ def move1(port):
     # Since colon is an invalid character for a
     # Windows file name Replacing colon with a
     # similar looking symbol found in unicode
-    # Modified Letter Colon " " (U+A789)
+    # modified Letter Colon " " (U+A789)
+    form_t = form_t.replace(":", "꞉")
+    dest = os.path.split(f_path)[0] + '/' + form_t + os.path.splitext(f_path)[1]
     
