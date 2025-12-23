@@ -14,4 +14,5 @@ def move1(port):
     t_str = time.ctime(t)
     # Converting the string to a time object
     t_obj = time.strptime(t_str)
+    # Transforming the time object to a timestamp
     
