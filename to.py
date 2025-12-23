@@ -9,4 +9,5 @@ def move1(port):
     # Getting the path of the file
     f_path = f"C:/python_work/changes/port/{port}.csv"
     # Obtaining the creation time (in seconds) of the file/folder (datatype=int)
+    t = os.path.getctime(f_path)
     
