@@ -25,3 +25,10 @@ def move1(port):
     dest = os.path.split(f_path)[0] + '/' + form_t + os.path.splitext(f_path)[1]
     # Renaming the filename to its timestamp
     os.rename(f_path, dest)
+
+
+#def move1(port):
+    #move files to their  
+    source = 'C:/python_work/changes/port/'
+    destination = f"C:/python_work/changes/done/{port}/{port}"
+    
