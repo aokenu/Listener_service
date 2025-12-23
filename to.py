@@ -10,4 +10,5 @@ def move1(port):
     f_path = f"C:/python_work/changes/port/{port}.csv"
     # Obtaining the creation time (in seconds) of the file/folder (datatype=int)
     t = os.path.getctime(f_path)
+    # Converting the time to an epoch string(the output timestamp string would be recognizable by strptime() withoutformat quantifers)
     
